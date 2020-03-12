@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head lang="tr">
+    <meta charset="UTF-8">
+	<title>CodeKod Anasayfa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>	
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-lightbox.min.css" rel="stylesheet"/>
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/default.min.css"/>
+	
+<body>
+	
+	
+	<!-- Header -->
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="" title="CodeKod">CodeKod</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="" title="Anasayfa">Anasayfa</a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eğitimler <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="/egitimler.html">HTML</a></li>
+					<li><a href="#">CSS</a></li>
+					<li><a href="#">JavaScript</a></li>
+					<li><a href="#">PHP</a></li>
+					<li><a href="#">ASP.NET</a></li>
+					<li><a href="#">VisualBasic.NET</a></li>
+					<li><a href="#">C#</a></li>
+					<li><a href="#">C++</a></li>
+					<li><a href="#">JAVA</a></li>
+				  </ul>
+				</li>
+				<li><a href="#" title="Kod Bankası">Kod Bankası</a></li>
+				<li><a href="#" title="Soru Havuzu">Soru Havuzu</a></li>
+				<li><a href="#" title="Projeler">Projeler</a></li>
+				<li><a href="#" title="Yazılım Capsleri">Yazılım Capsleri</a></li>
+				<li><a href="#" title="Sözlük">Sözlük</a></li>
+				<li><a href="#" title="VIP Bölümü" class="buttonVIP">VIP Bölümü</a></li>
+			  </ul>
+			  
+			  <ul class="nav navbar-nav navbar-right">
+				<a href="/giris-yap.html" title="Giriş Yap" class="btn btn-default navbar-btn buttonGiris">Giriş Yap</a>
+				<a href="/kayit-ol.html" title="Kayıt Ol" class="btn btn-default navbar-btn buttonKayit">Kayıt Ol</a>
+			  </ul>
+			</div>
+		  </div>
+		</nav>	
+	</header>
+	
+	<!-- Özel Mesaj -->
+	<div class="alert alert-info" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		<div class="container">	
+			<strong>CodeKod ></strong> Örnek Özel Mesaj.
+		</div>
+	</div>
+	
+	<!-- İçerik -->
+	<div id="content">
+	
+		<!-- Kayıt Ol -->
+		<div class="kayitOl">
+			<div class="row">
+				<div class="container">
+					<div class="col-md-1"></div>
+					<div class="col-md-6 kayitBilgi">
+						<h1><a href="#" title="CodeKod'a ücretsiz kayıt olun.">CodeKod</a> 'a ücretsiz kayıt olun.</h1>
+						<p>Programlama hakkında aradığın her şey burada!</p>
+					</div>
+					<div class="col-md-4 kayitForm">
+						<form action="" method="POST">
+							<input name="kadi" type="text" class="form-control textStyle" placeholder="Kullanıcı Adı" title="Kullanıcı Adı">
+							<input name="eposta" type="text" class="form-control textStyle" placeholder="E-Posta Adresi" title="E-Posta Adresi">
+							<input name="parola" type="text" class="form-control textStyle" placeholder="Parola" title="Parola">
+							<span>Güçlü bir parola için en az 1 karakter küçük/büyük harf ve sayı olmalı.</span>
+							<input name="kayitPost" type="submit" class="form-control buttonStyle" value="Kayıt Ol" title="Kayıt Ol"/>
+						</form>
+						<div class="sonuc">
+							<span class="label label-success">Başarılı</span>
+							<span class="label label-warning">Uyarı</span>
+							<span class="label label-danger">Hata</span>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Haber Kaynağı -->
+		<div class="haberkaynagi">
+			<div class="row">
+				<div class="container">
+					<h2>CodeKod'da NELER OLUYOR <br/><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></h2>
+					<!-- Eğitim -->
+					<div class="col-xs-12 col-ms-12 col-md-12 kutu" style="border-color: #6183BC;">
+						<h3><a href="#" title="PHP ile While Döngüsü">PHP ile While Döngüsü (Videolu Ders)</a></h3>
+						<div class="detay">
+							<div class="detay2">
+								<img alt="PHP ile While Döngüsü" src="http://www.webomelette.com/sites/default/files/field/image/PHP_Logo.png" width="200" height="175"/>
+								<div class="clear"></div>
+								<a href="#" title="PHP">PHP</a>
+								<span>2 gün önce</span>
+							</div>						
+							<p>Bu dersimizde PHP'de while döngüsünün nasıl kullanılacağını öğreniyoruz.</p>
+							<div class="detay3">
+								<a href="#" title="" class="btn btn-default">Devamını Gör..</a>
+							</div>
+						</div>
+					</div>
+					<!-- Soru Cevap -->
+					<div class="col-xs-12 col-ms-12 col-md-12 kutu2" style="border-color: gold;">
+						<h3><a href="#" title="PHP Türkçe karakter sorunu?">PHP Türkçe karakter sorunu?</a></h3>
+						<div class="detay">	
+							<p>Merhaba arkadaşlar başka bir siteden veri çekiyorum ama türkçe karakterler bozuk yardımcı olur musunuz?</p>
+							
+							<div class="detay2">
+								<a href="#" title="Soru Cevap">Soru Cevap</a>
+								<span>Cevaplandı mı ? <strong class="evet">(EVET)</strong> <strong class="hayir">(HAYIR)</strong></span>
+								<Span>Yorum Sayısı: <strong>2</strong></Span>
+							</div>	
+							<div class="detay3">
+								<a href="#" title="" class="btn btn-default">Devamını Gör..</a>
+							</div>
+						</div>
+					</div>
+					<!-- Kod Bank -->
+					<div class="col-xs-12 col-ms-12 col-md-12 kutu3" style="border-color: #d9534f;">
+						<h3><a href="#" title="C# ile Basit Hesap Makinesi Kodları">C# ile Basit Hesap Makinesi Kodları</a></h3>
+						<div class="detay">	
+							<p>C# ile basit Bir Hesap Makinesi Yapıyoruz :)</p>
+							<pre>
+								<code class="C#"> 
+ double sayi2 = Convert.ToDouble(txt_ekran.Text);
+ 
+   double sonuc = 0;
+ 
+   switch (islem)
+   {
+      case "+":
+         sonuc = sayi1 + sayi2;
+         break;
+      case "-":
+         sonuc = sayi1 - sayi2;
+         break;
+      case "x":
+         sonuc = sayi1 * sayi2;
+         break;
+      case "/":
+         sonuc = sayi1 / sayi2;
+         break;
+      default:
+         MessageBox.Show("İşlem seçmelisiniz!","Hata");
+         break;
+   }
+ 
+   txt_ekran.Text = sonuc.ToString();
+								</code>
+							</pre>
+							<div class="detay2">
+								<a href="#" title="Kod Bankası">Kod Bankası</a>
+								<span>Okunma: <strong>1500</strong></span>
+								<Span>Yorum Sayısı: <strong>2</strong></Span>
+							</div>	
+							
+							<div class="detay3">
+								<a href="#" title="" class="btn btn-default">Devamını Gör..</a>
+							</div>
+						</div>
+					</div>
+					<!-- Projeler -->
+					<div class="col-xs-12 col-ms-12 col-md-12 kutu4" style="border-color: lightblue;">
+						<h3><a href="#" title="C# ile Basit Hesap Makinesi Kodları">C# Hastane Otomasyon Programı Kaynak Kod</a></h3>
+						<div class="detay">	
+							<p>C# dilinde yazılmış hastane otomasyon programının kaynak kodları</p>
+							<div class="detay2">
+								<a href="#" title="Projeler">Projeler</a>
+								<Span>İndirme Sayısı: <strong>559</strong></Span>
+								<span>Okunma: <strong>1500</strong></span>
+								<Span>Yorum Sayısı: <strong>2</strong></Span>
+							</div>	
+							<a class="btn btn-default buttonIndir" href="#" title="İndir">Projeyi İndir (559)</a>
+							<div class="detay3">
+								<a href="#" title="" class="btn btn-default">Devamını Gör..</a>
+							</div>
+						</div>
+					</div>
+				
+					<!-- Yazılım Capsleri -->
+					<div class="col-xs-12 col-ms-12 col-md-12 kutu5" style="border-color: lightgreen;">
+						<div class="detay">	
+							<p>Yazılımcının en büyük derdi :D for rıdvan :D</p>
+							<img height="300" src="http://www.ufukcatalca.com/wp-content/uploads/musterinin-butcesi-ve-istedigi-proje-capsi-qyxtj.jpeg">
+							
+							<div class="clear"></div>
+							<div class="detay2">
+								<a href="#" title="Yazılım Capsleri">Yazılım Capsleri</a>
+								<span>Okunma: <strong>1500</strong></span>
+								<span>Yorum Sayısı: <strong>2</strong></span>
+								<button name="begendim" title="Beğendim"><span class="fa fa-thumbs-up"> 5</span></button>
+								<button name="begenmedim" title="Beğenmedim"><span class="fa fa-thumbs-down"> 10</span></button>
+							</div>	
+							<div class="detay3">
+								<a href="#" title="" class="btn btn-default">Diğer Caspler</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- Diğer -->
+	<div class="diger">
+		<div class="container">
+			<div class="col-md-4 baglantilar">
+				<h4>Bağlantılar</h4>
+				<ul>
+					<li><a class="aktif" href="" title="Anasayfa">Anasayfa</a></li>
+					<li>
+						<div class="dropdown">
+						  <a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Eğitimler <span class="caret"></span></a>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							<li><a href="/egitimler.html">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+							<li><a href="#">JavaScript</a></li>
+							<li><a href="#">PHP</a></li>
+							<li><a href="#">ASP.NET</a></li>
+							<li><a href="#">VisualBasic.NET</a></li>
+							<li><a href="#">C#</a></li>
+							<li><a href="#">C++</a></li>
+							<li><a href="#">JAVA</a></li>
+						  </ul>
+						</div>
+					</li>					
+					<li><a href="#" title="Kod Bankası">Kod Bankası</a></li>
+					<li><a href="#" title="Soru Havuzu">Soru Havuzu</a></li>
+					<li><a href="#" title="Projeler">Projeler</a></li>
+					<li><a href="#" title="Yazılım Capsleri">Yazılım Capsleri</a></li>
+					<li><a href="#" title="Sözlük">Sözlük</a></li>
+					<li><a class="ozel" href="#" title="VIP Bölümü">VIP Bölümü</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 twitterAkis">
+				<h4>Son Tweetler</h4>
+				<a class="twitter-timeline" href="https://twitter.com/omnyvz" data-widget-id="640198231826243585">@omnyvz tarafından gönderilen tweetler</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<div class="col-md-4 abone">
+				<h4>Yeniliklerden Haberdar Olun</h4>
+				<span>Son yeniliklerden haberdar olmak için bize eposta adresinizi bırakın :)</span>
+				<div class="clear"></div>
+				<div class="col-md-8">
+					<input name="aboneEposta" type="text" class="form-control textStyle" placeholder="E-Posta Adresiniz" title="E-Posta Adresiniz">
+				</div>
+				<div class="col-md-4">		
+					<input name="aboneOl" type="submit" class="btn btn-default" value="Takip Et" title="Takip Et"/>
+				</div>	
+				<div class="clear"></div>
+				<h4>Sosyal Medyada CodeKod</h4>
+				<ul>
+		  			<li style="background: #5BD4E3"><a href="#" class="fa fa-twitter" target="_blank"></a></li>
+		  			<li style="background: #427CC8"><a href="#" class="fa fa-facebook" target="_blank"></a></li>
+		  			<li style="background: #EB5E5A"><a href="#" class="fa fa-youtube" target="_blank"></a></li>
+		  			<li style="background: #DA554A"><a href="#" class="fa fa-google-plus" target="_blank"></a></li>
+		  			<li style="background: #EF9A12"><a href="#" class="fa fa-rss" target="_blank"></a></li>
+		  		</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer -->
+	<footer>
+		<div class="row">
+			<div class="container">
+				<p>© Tüm Hakları Sakldır 2015 - <a href="#" title="CodeKod">CodeKod</a></p>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/bootstrap-hover-dropdown.js"></script>
+	<script src="assets/js/bootstrap-lightbox.min.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<script src="assets/js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
